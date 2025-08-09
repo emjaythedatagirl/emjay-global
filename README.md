@@ -60,13 +60,82 @@ The analysis was carried out using Python and Excel it focused on answering spec
 
  **Data Cleaning & Preparation**
  
-- Removed duplicates and missing values
-![](globalterrorduplicate.png) ![](globalterrordupremoved.png)
+- Removed duplicates  
 
+ <table>
+  <tr>
+    <th>Before: Duplicate Records Present</th>
+    <th>After: Duplicates Removed</th>
+  </tr>
+  <tr>
+    <td><img src="globalterrorduplicate.png" width="300"></td>
+    <td><img src="globalterrordupremoved.png" width="300"></td>
+  </tr>
+</table>
 
 
 
 - Corrected inconsistent data types
+
+<table>
+  <tr>
+    <th>Before: Original Data Types</th>
+    <th>After: Changed Data Types</th>
+  </tr>
+  <tr>
+    <td><img src="globalterrordtype.png" width="500"></td>
+    <td><img src="globalterrordtypechanged.png" width="400"></td>
+  </tr>
+</table>
+
+- Removed missing values
+
+<table>
+  <tr>
+    <td>Before: Checking for Null</td>
+    <td>After: Null Removed</td>
+  </tr>
+  <tr>
+    <td><img src="tocheckfornull.png" width="600"></td>
+    <td><img src="nullremoved.png" width="600"></td>
+  </tr>
+</table>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rFshD6E47bMRDcYUauYb6V_mzv5CVqjp?usp=sharing)
+
+**Data Exploration**
+
+- Used line graphs to explore trends of attack over time
+
+- Created calculated measures using DAX to summarize total countries and regions affected, number of attacks.
+
+  ## Key Findings:
+  
+- **Terrorist Attacks over time**: There was a significant rise in terrorist incidents from the early 2000s, the peak year being 2014 after which a gradual decline was observed.
+
+- **Weapons Used**: Explosives and firearms are the most used weapons in the attacks. This could be as a result of these weapons being easily accessible by the terrorists.
+
+- **Top Terrorist Groups**: The terrorist group that attacked most is unknown. However, the Taliban group,  are also responsible for a large share of attacks and fatalities.
+
+- **Top Targeted groups**: Private citizens are the most targeted followed by Military, Police, Government and business.
+
+- **Top Countries with highest fatalities**: Iraq, Pakistan and Afghanistan reported the highest numbers of fatalities. These could be as a result of these countries’ weak security infrastructure or active conflicts.
+
+- **Regions affected**: The Middle East and North Africa recorded the highest number of attacks, followed by South Asia  then Sub-Saharan Africa, Western Europe being the least affected
+
+
+
+  ##  Recommendation:
+  
+- *Strengthen Security in High-Risk Zones*: Countries with high incidents should enhance border control, and surveillance particularly in areas prone to bombings.
+
+- *Improve Emergency Response Infrastructure*: Ensure that the affected countries have rapid medical and security response units to mitigate damage when attacks occur.
+
+- *International Collaborations*: Countries should collaborate on data sharing, joint training and anti-terror funding since terrorism occurs across the border.
+
+- *Control Access to Explosives and Firearms*: Laws and monitoring systems around the trade and use of these weapons should be controlled especially in known conflict zones. 
+
+
 
 
 
