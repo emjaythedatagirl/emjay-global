@@ -101,8 +101,13 @@ The analysis was carried out using Python and Excel it focused on answering spec
   </tr>
 </table>
 
+- Removed unnecessary columns
+  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rFshD6E47bMRDcYUauYb6V_mzv5CVqjp?usp=sharing)
 
+
+
+  
 **Data Exploration**
 
 - Used line graphs to explore trends of attack over time
@@ -123,7 +128,7 @@ The analysis was carried out using Python and Excel it focused on answering spec
 
 - **Regions affected**: The Middle East and North Africa recorded the highest number of attacks, followed by South Asia  then Sub-Saharan Africa, Western Europe being the least affected
 
-  ##  Recommendation:
+##  Recommendation:
   
 - *Strengthen Security in High-Risk Zones*: Countries with high incidents should enhance border control, and surveillance particularly in areas prone to bombings.
 
