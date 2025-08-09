@@ -123,8 +123,6 @@ The analysis was carried out using Python and Excel it focused on answering spec
 
 - **Regions affected**: The Middle East and North Africa recorded the highest number of attacks, followed by South Asia  then Sub-Saharan Africa, Western Europe being the least affected
 
-
-
   ##  Recommendation:
   
 - *Strengthen Security in High-Risk Zones*: Countries with high incidents should enhance border control, and surveillance particularly in areas prone to bombings.
@@ -133,9 +131,23 @@ The analysis was carried out using Python and Excel it focused on answering spec
 
 - *International Collaborations*: Countries should collaborate on data sharing, joint training and anti-terror funding since terrorism occurs across the border.
 
-- *Control Access to Explosives and Firearms*: Laws and monitoring systems around the trade and use of these weapons should be controlled especially in known conflict zones. 
+- *Control Access to Explosives and Firearms*: Laws and monitoring systems around the trade and use of these weapons should be controlled especially in known conflict zones.
+
+## Limitations
+
+-  The dataset does not include recent terrorist events as it covers 1970 to 2017. Periods after 2017 were not covered.
+
+- Some entries lack the necessary details such as the number of casualties, the attack type and the group name.
+
+- Some regions may underreport due to lack of access to the media or political sensitivity.
+
+## Conclusion
+
+The analysis shows the trends in global terrorism over a period close to five(5) decades. It reveals that the Middle East and South Asia were mostly affected. Explosives and firearms are the major weapons used with the private citizens as main victims. Also, an Unknown terrorist group is responsible for most of the attacks. Countries and regions highly affected should strengthen their security, control access to explosives and firearms and seek collaborations with other countries.
 
 
+
+![](Thankyou.png)
 
 
 
